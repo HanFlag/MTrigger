@@ -13,7 +13,16 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f47e3561-ba51-476e-9bb4-a98982a5a25a" name="변경" comment="" />
+    <list default="true" id="f47e3561-ba51-476e-9bb4-a98982a5a25a" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MomentTrigger.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MomentTrigger.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MainMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MainMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyStuff/Animation/BS_GIdeonMovementBS.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyStuff/Animation/BS_GIdeonMovementBS.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyStuff/Character/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyStuff/Character/BP_PlayerCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerPlayerController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerPlayerController.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,13 +32,13 @@
     <option name="firstShow" value="false" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="7342" />
+    <option name="cachedIndexableFilesCount" value="7339" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/player_addcontrollertotest" />
+        <entry key="$PROJECT_DIR$" value="LocalMain" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,61 +65,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.5729669814722682" />
-      <entry key="MS500" value="3.5135860919365136" />
-      <entry key="S2" value="6.224695537553612" />
-      <entry key="S5" value="7.640083285713681" />
-      <entry key="S10" value="8.267962181066018" />
-      <entry key="S30" value="8.930059953894565" />
-      <entry key="S60" value="10.221013605650393" />
-      <entry key="M2" value="12.628889573724077" />
-      <entry key="M5" value="19.769229181620634" />
-      <entry key="M10" value="42.643534435019056" />
-      <entry key="M15" value="69.24664396086584" />
-      <entry key="M30" value="145.24394495791108" />
-      <entry key="H1" value="264.53089611070754" />
-      <entry key="H2" value="406.02440281629237" />
-      <entry key="H4" value="531.0209736344937" />
-      <entry key="D1" value="689.5432522077374" />
-      <entry key="W1" value="724.002832229764" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000004266771" />
+      <entry key="S5" value="1.0002397062130692" />
+      <entry key="S10" value="1.021338099307131" />
+      <entry key="S30" value="1.4384167233662561" />
+      <entry key="S60" value="1.9630309802416996" />
+      <entry key="M2" value="2.6081862682937516" />
+      <entry key="M5" value="7.684671104457805" />
+      <entry key="M10" value="31.463432873680954" />
+      <entry key="M15" value="59.91972472440259" />
+      <entry key="M30" value="131.3438285956133" />
+      <entry key="H1" value="242.35388401364682" />
+      <entry key="H2" value="418.0912827421129" />
+      <entry key="H4" value="623.1958035067587" />
+      <entry key="D1" value="948.7838172800734" />
+      <entry key="W1" value="1028.7577802077049" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.3000529094681291E-130" />
-      <entry key="S10" value="1.5768656678786135E-65" />
-      <entry key="S30" value="3.9911444950285804E-22" />
-      <entry key="S60" value="3.176669742172398E-11" />
-      <entry key="M2" value="1.2280371011841103E-5" />
-      <entry key="M5" value="0.04066108350969906" />
-      <entry key="M10" value="0.7441811014177178" />
-      <entry key="M15" value="2.2273459688255706" />
-      <entry key="M30" value="9.040361242654383" />
-      <entry key="H1" value="24.16178098728614" />
-      <entry key="H2" value="45.100637720918776" />
-      <entry key="H4" value="64.74085993096301" />
-      <entry key="D1" value="90.37663364224548" />
-      <entry key="W1" value="96.01656293131114" />
+      <entry key="MS500" value="3.7924681701072625E-67" />
+      <entry key="S2" value="3.4361744402173176E-17" />
+      <entry key="S5" value="3.83956217991755E-7" />
+      <entry key="S10" value="8.725276437403498E-4" />
+      <entry key="S30" value="0.1515395590746605" />
+      <entry key="S60" value="0.5505472041079101" />
+      <entry key="M2" value="1.058967597464719" />
+      <entry key="M5" value="1.8389693460688992" />
+      <entry key="M10" value="3.3553904630671036" />
+      <entry key="M15" value="5.106979161901616" />
+      <entry key="M30" value="10.074732878277254" />
+      <entry key="H1" value="19.764296389146118" />
+      <entry key="H2" value="39.30502875115494" />
+      <entry key="H4" value="65.47120161263639" />
+      <entry key="D1" value="110.49218464823518" />
+      <entry key="W1" value="121.94756150632467" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.5405926970768797" />
-      <entry key="MS500" value="3.4982574588426893" />
-      <entry key="S2" value="6.217063790799123" />
-      <entry key="S5" value="7.636189745293462" />
-      <entry key="S10" value="8.265826701431525" />
-      <entry key="S30" value="8.92928043355609" />
-      <entry key="S60" value="10.220553346869309" />
-      <entry key="M2" value="12.628600235869309" />
-      <entry key="M5" value="19.808833029747934" />
-      <entry key="M10" value="43.38168299483171" />
-      <entry key="M15" value="71.46216761725492" />
-      <entry key="M30" value="154.25889743100427" />
-      <entry key="H1" value="288.65813448962314" />
-      <entry key="H2" value="451.0930731937826" />
-      <entry key="H4" value="595.7391014849655" />
-      <entry key="D1" value="779.9146495501375" />
-      <entry key="W1" value="820.0186019341888" />
+      <entry key="MS100" value="0.0075463775697253545" />
+      <entry key="MS500" value="0.3763116868527668" />
+      <entry key="S2" value="0.7832256947542602" />
+      <entry key="S5" value="0.9070678110010704" />
+      <entry key="S10" value="0.9715704870306555" />
+      <entry key="S30" value="1.5500774405728297" />
+      <entry key="S60" value="2.477124861133761" />
+      <entry key="M2" value="3.6397642006407747" />
+      <entry key="M5" value="9.500652032403792" />
+      <entry key="M10" value="34.78892248255224" />
+      <entry key="M15" value="64.9928732027659" />
+      <entry key="M30" value="141.38334053008654" />
+      <entry key="H1" value="262.0848343186947" />
+      <entry key="H2" value="457.36515691942856" />
+      <entry key="H4" value="688.6421051293645" />
+      <entry key="D1" value="1059.2692366002077" />
+      <entry key="W1" value="1150.7042811034105" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -135,11 +144,11 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Uproject.MomentTrigger.executor": "Debug",
+    "Uproject.MomentTrigger.executor": "Run",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/add-motion-and-sprint",
     "git.auto.fetch.suggestion.counter": "2",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
@@ -252,6 +261,7 @@
       <workItem from="1788363834389" duration="4852000" />
       <workItem from="1788369728762" duration="733000" />
       <workItem from="1788370473116" duration="1811000" />
+      <workItem from="1788437926956" duration="7462000" />
     </task>
     <task id="LOCAL-00001" summary="addunrealproject">
       <option name="closed" value="true" />
@@ -293,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788370309913</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: Add Sprint action">
+      <option name="closed" value="true" />
+      <created>1788446324312</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1788446324312</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +350,8 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Test2" />
     <MESSAGE value=".gitignore updated to" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore updated to" />
+    <MESSAGE value="feat: Add Sprint action" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add Sprint action" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
