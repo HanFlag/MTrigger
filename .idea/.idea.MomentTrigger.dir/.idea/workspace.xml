@@ -13,32 +13,23 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f47e3561-ba51-476e-9bb4-a98982a5a25a" name="변경" comment="">
+    <list default="true" id="eb52b996-d200-4fe8-b093-d9ee829e44b0" name="변경" comment="feat : Smooth Mouse Look">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MomentTrigger.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MomentTrigger.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MainMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MainMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyStuff/Animation/BS_GIdeonMovementBS.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyStuff/Animation/BS_GIdeonMovementBS.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyStuff/Character/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyStuff/Character/BP_PlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerCharacter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerPlayerController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerPlayerController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DpaMonitoringSettings">
-    <option name="firstShow" value="false" />
-  </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="7339" />
+    <option name="cachedIndexableFilesCount" value="7341" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="LocalMain" />
+        <entry key="$PROJECT_DIR$" value="feature/add-motion-and-sprint" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,9 +46,6 @@
     &quot;accountId&quot;: &quot;c7097d34-e4af-47c5-8299-9bd4050d94cb&quot;
   }
 }</component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/PlayerController.h" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -65,109 +53,95 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000004266771" />
-      <entry key="S5" value="1.0002397062130692" />
-      <entry key="S10" value="1.021338099307131" />
-      <entry key="S30" value="1.4384167233662561" />
-      <entry key="S60" value="1.9630309802416996" />
-      <entry key="M2" value="2.6081862682937516" />
-      <entry key="M5" value="7.684671104457805" />
-      <entry key="M10" value="31.463432873680954" />
-      <entry key="M15" value="59.91972472440259" />
-      <entry key="M30" value="131.3438285956133" />
-      <entry key="H1" value="242.35388401364682" />
-      <entry key="H2" value="418.0912827421129" />
-      <entry key="H4" value="623.1958035067587" />
-      <entry key="D1" value="948.7838172800734" />
-      <entry key="W1" value="1028.7577802077049" />
+      <entry key="MS100" value="1.3456534883353166" />
+      <entry key="MS500" value="3.1555785782282135" />
+      <entry key="S2" value="4.6486053156016265" />
+      <entry key="S5" value="5.643163677653443" />
+      <entry key="S10" value="6.492507087096269" />
+      <entry key="S30" value="8.687786960880373" />
+      <entry key="S60" value="14.062383670344477" />
+      <entry key="M2" value="26.498058160725797" />
+      <entry key="M5" value="51.301464775318" />
+      <entry key="M10" value="72.83777743497146" />
+      <entry key="M15" value="84.2136150130579" />
+      <entry key="M30" value="99.11886204904629" />
+      <entry key="H1" value="108.32458688736618" />
+      <entry key="H2" value="113.46207114797711" />
+      <entry key="H4" value="116.1787434512224" />
+      <entry key="D1" value="118.52232931018067" />
+      <entry key="W1" value="118.93157595679521" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.7924681701072625E-67" />
-      <entry key="S2" value="3.4361744402173176E-17" />
-      <entry key="S5" value="3.83956217991755E-7" />
-      <entry key="S10" value="8.725276437403498E-4" />
-      <entry key="S30" value="0.1515395590746605" />
-      <entry key="S60" value="0.5505472041079101" />
-      <entry key="M2" value="1.058967597464719" />
-      <entry key="M5" value="1.8389693460688992" />
-      <entry key="M10" value="3.3553904630671036" />
-      <entry key="M15" value="5.106979161901616" />
-      <entry key="M30" value="10.074732878277254" />
-      <entry key="H1" value="19.764296389146118" />
-      <entry key="H2" value="39.30502875115494" />
-      <entry key="H4" value="65.47120161263639" />
-      <entry key="D1" value="110.49218464823518" />
-      <entry key="W1" value="121.94756150632467" />
+      <entry key="MS500" value="3.75221957563229E-87" />
+      <entry key="S2" value="2.474982093831506E-22" />
+      <entry key="S5" value="2.2773449825055075E-9" />
+      <entry key="S10" value="4.772162537951952E-5" />
+      <entry key="S30" value="0.036775448332940684" />
+      <entry key="S60" value="0.21912599556722467" />
+      <entry key="M2" value="0.6731334877560964" />
+      <entry key="M5" value="1.6729174663874582" />
+      <entry key="M10" value="2.482157054409267" />
+      <entry key="M15" value="2.8792322735800147" />
+      <entry key="M30" value="3.3743355256174588" />
+      <entry key="H1" value="3.6683754306996987" />
+      <entry key="H2" value="3.8291345245776562" />
+      <entry key="H4" value="3.9132563103459406" />
+      <entry key="D1" value="3.9853564347340114" />
+      <entry key="W1" value="3.997903444068035" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0075463775697253545" />
-      <entry key="MS500" value="0.3763116868527668" />
-      <entry key="S2" value="0.7832256947542602" />
-      <entry key="S5" value="0.9070678110010704" />
-      <entry key="S10" value="0.9715704870306555" />
-      <entry key="S30" value="1.5500774405728297" />
-      <entry key="S60" value="2.477124861133761" />
-      <entry key="M2" value="3.6397642006407747" />
-      <entry key="M5" value="9.500652032403792" />
-      <entry key="M10" value="34.78892248255224" />
-      <entry key="M15" value="64.9928732027659" />
-      <entry key="M30" value="141.38334053008654" />
-      <entry key="H1" value="262.0848343186947" />
-      <entry key="H2" value="457.36515691942856" />
-      <entry key="H4" value="688.6421051293645" />
-      <entry key="D1" value="1059.2692366002077" />
-      <entry key="W1" value="1150.7042811034105" />
+      <entry key="MS100" value="1.2507912826994505" />
+      <entry key="MS500" value="2.8759600527233182" />
+      <entry key="S2" value="4.407308133066003" />
+      <entry key="S5" value="5.451397088400686" />
+      <entry key="S10" value="6.341630834146542" />
+      <entry key="S30" value="8.627039767153013" />
+      <entry key="S60" value="14.207952613085924" />
+      <entry key="M2" value="27.106385905017188" />
+      <entry key="M5" value="52.91006444277017" />
+      <entry key="M10" value="75.26463928369915" />
+      <entry key="M15" value="87.04708230110224" />
+      <entry key="M30" value="102.464272993538" />
+      <entry key="H1" value="111.97659455101703" />
+      <entry key="H2" value="117.28248529560544" />
+      <entry key="H4" value="120.08749714133239" />
+      <entry key="D1" value="122.50691478059896" />
+      <entry key="W1" value="122.92936875038384" />
     </decayedShown>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7,
-  &quot;fromUser&quot;: false
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="3IPBtFjYrSL4RtywQ2Kj9aepDua" />
+  <component name="ProjectId" id="3IpAxJz2MS9glYLX0qG2WFQuxJO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Uproject.MomentTrigger.executor": "Run",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "feature/add-motion-and-sprint",
-    "git.auto.fetch.suggestion.counter": "2",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Uproject.MomentTrigger.executor&quot;: &quot;Run&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/add-jump&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="true" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MomentTrigger" type="Uproject" factoryName="rider.uproject">
       <configuration_1 setup="1">
         <option name="CONFIGURATION" value="DebugGame Editor" />
@@ -244,74 +218,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="f47e3561-ba51-476e-9bb4-a98982a5a25a" name="변경" comment="" />
-      <created>1779646239949</created>
+      <changelist id="eb52b996-d200-4fe8-b093-d9ee829e44b0" name="변경" comment="" />
+      <created>1788451383153</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1779646239949</updated>
-      <workItem from="1779646241002" duration="779000" />
-      <workItem from="1787656542480" duration="1298000" />
-      <workItem from="1788336095931" duration="958000" />
-      <workItem from="1788337178810" duration="308000" />
-      <workItem from="1788337656976" duration="315000" />
-      <workItem from="1788338038649" duration="5453000" />
-      <workItem from="1788346558689" duration="2266000" />
-      <workItem from="1788348981303" duration="12359000" />
-      <workItem from="1788363186819" duration="636000" />
-      <workItem from="1788363834389" duration="4852000" />
-      <workItem from="1788369728762" duration="733000" />
-      <workItem from="1788370473116" duration="1811000" />
-      <workItem from="1788437926956" duration="7462000" />
+      <updated>1788451383153</updated>
+      <workItem from="1788451387009" duration="1272000" />
+      <workItem from="1788452767350" duration="390000" />
     </task>
-    <task id="LOCAL-00001" summary="addunrealproject">
+    <task id="LOCAL-00001" summary="feat : Smooth Mouse Look">
       <option name="closed" value="true" />
-      <created>1788363445830</created>
+      <created>1788452434257</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1788363445830</updated>
+      <updated>1788452434257</updated>
     </task>
-    <task id="LOCAL-00002" summary="gitignore">
-      <option name="closed" value="true" />
-      <created>1788363557685</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1788363557685</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Test">
-      <option name="closed" value="true" />
-      <created>1788365244598</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1788365244598</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Test2">
-      <option name="closed" value="true" />
-      <created>1788366312810</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1788366312810</updated>
-    </task>
-    <task id="LOCAL-00005" summary=".gitignore updated to">
-      <option name="closed" value="true" />
-      <created>1788370309913</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1788370309913</updated>
-    </task>
-    <task id="LOCAL-00006" summary="feat: Add Sprint action">
-      <option name="closed" value="true" />
-      <created>1788446324312</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1788446324312</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,60 +242,8 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="초기 커밋 메시지입니다." />
-    <MESSAGE value="addunrealproject" />
-    <MESSAGE value="gitignore" />
-    <MESSAGE value="Test" />
-    <MESSAGE value="Test2" />
-    <MESSAGE value=".gitignore updated to" />
-    <MESSAGE value="feat: Add Sprint action" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add Sprint action" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
-          <option name="timeStamp" value="3" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="feat : Smooth Mouse Look" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : Smooth Mouse Look" />
   </component>
 </project>
