@@ -13,14 +13,21 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb52b996-d200-4fe8-b093-d9ee829e44b0" name="변경" comment="feat : Smooth Mouse Look">
+    <list default="true" id="eb52b996-d200-4fe8-b093-d9ee829e44b0" name="변경" comment="feat :Add Movement Deceleration">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MomentTrigger.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MomentTrigger.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyStuff/Character/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyStuff/Character/BP_PlayerCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerCharacter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerPlayerController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MomentTrigger/MomentTriggerPlayerController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="EmbeddingIndexingInfo">
     <option name="cachedIndexableFilesCount" value="7341" />
@@ -53,61 +60,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.3456534883353166" />
-      <entry key="MS500" value="3.1555785782282135" />
-      <entry key="S2" value="4.6486053156016265" />
-      <entry key="S5" value="5.643163677653443" />
-      <entry key="S10" value="6.492507087096269" />
-      <entry key="S30" value="8.687786960880373" />
-      <entry key="S60" value="14.062383670344477" />
-      <entry key="M2" value="26.498058160725797" />
-      <entry key="M5" value="51.301464775318" />
-      <entry key="M10" value="72.83777743497146" />
-      <entry key="M15" value="84.2136150130579" />
-      <entry key="M30" value="99.11886204904629" />
-      <entry key="H1" value="108.32458688736618" />
-      <entry key="H2" value="113.46207114797711" />
-      <entry key="H4" value="116.1787434512224" />
-      <entry key="D1" value="118.52232931018067" />
-      <entry key="W1" value="118.93157595679521" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000064712379613" />
+      <entry key="S2" value="1.066252787994719" />
+      <entry key="S5" value="1.495284937657292" />
+      <entry key="S10" value="2.02989328613221" />
+      <entry key="S30" value="3.0927123543174706" />
+      <entry key="S60" value="4.958054258940682" />
+      <entry key="M2" value="9.008024195782912" />
+      <entry key="M5" value="16.126619774643864" />
+      <entry key="M10" value="25.428254687714468" />
+      <entry key="M15" value="35.6044967832831" />
+      <entry key="M30" value="69.8329261017803" />
+      <entry key="H1" value="141.42354020667267" />
+      <entry key="H2" value="241.74919604489367" />
+      <entry key="H4" value="333.8308940549377" />
+      <entry key="D1" value="449.1401369806702" />
+      <entry key="W1" value="473.7385443015869" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.75221957563229E-87" />
-      <entry key="S2" value="2.474982093831506E-22" />
-      <entry key="S5" value="2.2773449825055075E-9" />
-      <entry key="S10" value="4.772162537951952E-5" />
-      <entry key="S30" value="0.036775448332940684" />
-      <entry key="S60" value="0.21912599556722467" />
-      <entry key="M2" value="0.6731334877560964" />
-      <entry key="M5" value="1.6729174663874582" />
-      <entry key="M10" value="2.482157054409267" />
-      <entry key="M15" value="2.8792322735800147" />
-      <entry key="M30" value="3.3743355256174588" />
-      <entry key="H1" value="3.6683754306996987" />
-      <entry key="H2" value="3.8291345245776562" />
-      <entry key="H4" value="3.9132563103459406" />
-      <entry key="D1" value="3.9853564347340114" />
-      <entry key="W1" value="3.997903444068035" />
+      <entry key="MS100" value="5.209375571388817E-68" />
+      <entry key="MS500" value="3.494275424755466E-14" />
+      <entry key="S2" value="4.323538030581912E-4" />
+      <entry key="S5" value="0.045116532569230317" />
+      <entry key="S10" value="0.2124175786287647" />
+      <entry key="S30" value="0.618929045957743" />
+      <entry key="S60" value="0.921682213091041" />
+      <entry key="M2" value="1.2666860508268754" />
+      <entry key="M5" value="1.8901556094122172" />
+      <entry key="M10" value="3.5335944031615547" />
+      <entry key="M15" value="5.406577093752727" />
+      <entry key="M30" value="10.105643214624637" />
+      <entry key="H1" value="16.424396661530864" />
+      <entry key="H2" value="23.25775920931039" />
+      <entry key="H4" value="28.844645925433586" />
+      <entry key="D1" value="35.407139185153106" />
+      <entry key="W1" value="36.765813654611435" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.2507912826994505" />
-      <entry key="MS500" value="2.8759600527233182" />
-      <entry key="S2" value="4.407308133066003" />
-      <entry key="S5" value="5.451397088400686" />
-      <entry key="S10" value="6.341630834146542" />
-      <entry key="S30" value="8.627039767153013" />
-      <entry key="S60" value="14.207952613085924" />
-      <entry key="M2" value="27.106385905017188" />
-      <entry key="M5" value="52.91006444277017" />
-      <entry key="M10" value="75.26463928369915" />
-      <entry key="M15" value="87.04708230110224" />
-      <entry key="M30" value="102.464272993538" />
-      <entry key="H1" value="111.97659455101703" />
-      <entry key="H2" value="117.28248529560544" />
-      <entry key="H4" value="120.08749714133239" />
-      <entry key="D1" value="122.50691478059896" />
-      <entry key="W1" value="122.92936875038384" />
+      <entry key="MS100" value="1.016166732435723E-12" />
+      <entry key="MS500" value="0.003994353305386457" />
+      <entry key="S2" value="0.28781652669683594" />
+      <entry key="S5" value="1.0067753732495628" />
+      <entry key="S10" value="1.8671277658663072" />
+      <entry key="S30" value="3.507473351978256" />
+      <entry key="S60" value="5.741472319307338" />
+      <entry key="M2" value="10.177997127802733" />
+      <entry key="M5" value="17.958110079117155" />
+      <entry key="M10" value="28.915606039713172" />
+      <entry key="M15" value="40.9677948976595" />
+      <entry key="M30" value="79.90028994229348" />
+      <entry key="H1" value="157.81635171985803" />
+      <entry key="H2" value="264.98372083481104" />
+      <entry key="H4" value="362.6606723434539" />
+      <entry key="D1" value="484.54413171671155" />
+      <entry key="W1" value="510.5038885488435" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -224,7 +231,7 @@
       <option name="presentableId" value="Default" />
       <updated>1788451383153</updated>
       <workItem from="1788451387009" duration="1272000" />
-      <workItem from="1788452767350" duration="390000" />
+      <workItem from="1788452767350" duration="11891000" />
     </task>
     <task id="LOCAL-00001" summary="feat : Smooth Mouse Look">
       <option name="closed" value="true" />
@@ -234,7 +241,23 @@
       <option name="project" value="LOCAL" />
       <updated>1788452434257</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix : Smooth Mouse Look">
+      <option name="closed" value="true" />
+      <created>1788453184098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1788453184098</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat :Add Movement Deceleration">
+      <option name="closed" value="true" />
+      <created>1788455789665</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1788455789665</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,8 +265,21 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat : Smooth Mouse Look" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : Smooth Mouse Look" />
+    <MESSAGE value="fix : Smooth Mouse Look" />
+    <MESSAGE value="feat :Add Movement Deceleration" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat :Add Movement Deceleration" />
   </component>
 </project>
